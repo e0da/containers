@@ -10,4 +10,4 @@ services:
     environment:
       POSTGRES_PASSWORD: insecure
 volumes:
-  postgres:
+  postgres_data:
