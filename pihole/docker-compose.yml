@@ -1,0 +1,18 @@
+version: "3"
+services:
+  pihole:
+    image: pihole/pihole:latest
+    restart: unless-stopped
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "./etc-pihole/:/etc/pihole/"
+      - "./etc-dnsmasq.d/:/etc/dnsmasq.d/"
+    environment:
+      TZ: America/Los_Angeles
+    dns:
+      - "127.0.0.1"
+      - "1.1.1.1"
