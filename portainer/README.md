@@ -1,4 +1,4 @@
-# postgres container
+# portainer container
 
 Set up a [Portainer][] container which runs persistently whenever the host
 is booted.

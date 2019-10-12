@@ -9,7 +9,5 @@ services:
     volumes:
       - portainer_data:/data
       - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      POSTGRES_PASSWORD: insecure
 volumes:
   portainer_data:
