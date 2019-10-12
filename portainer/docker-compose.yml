@@ -2,7 +2,7 @@ version: "3"
 services:
   portainer:
     image: portainer/portainer
-    restart: always
+    restart: unless-stopped
     ports:
       - "8000:8000"
       - "9000:9000"
