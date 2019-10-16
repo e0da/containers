@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
     ports:
       - "5432:5432"
-    volumes:
-      - postgres:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: insecure
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 volumes:
   postgres_data:
