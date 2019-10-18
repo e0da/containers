@@ -1,0 +1,10 @@
+version: "3"
+services:
+  devd:
+    build: .
+    restart: unless-stopped
+    network_mode: host
+    command: >
+      gfnucleus=http://localhost:3000
+      pgadmin=http://localhost:8080
+      portainer=http://localhost:9000
