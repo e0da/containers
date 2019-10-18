@@ -1,4 +1,4 @@
-# portainer container
+# pgadmin container
 
 Set up a [pgAdmin][] [container][] which runs persistently whenever the host
 is booted.

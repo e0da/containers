@@ -1,7 +1,7 @@
 # devd container
 
 Set up a [devd][] container which runs persistently whenever the host
-is booted. 
+is booted.
 
 [devd]: https://github.com/cortesi/devd
 

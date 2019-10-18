@@ -2,7 +2,10 @@
 
 These are containers and tools I find useful.
 
-- [postgres](postgres/README.md)
+- [devd](devd)
+- [pgadmin](pgadmin)
+- [portainer](portainer)
+- [postgres](postgres)
 
 ## License
 
