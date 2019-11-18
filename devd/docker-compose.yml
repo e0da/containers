@@ -7,4 +7,5 @@ services:
     command: >
       gfnucleus=http://localhost:3000
       pgadmin=http://localhost:8080
+      adminer=http://localhost:9080
       portainer=http://localhost:9000
