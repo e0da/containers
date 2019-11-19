@@ -5,8 +5,11 @@ is booted. Useful replacement for installing MySQL from OS/distro package
 management which I have found to be error prone, especially in the event your
 OS gets newer but you have to keep working with older versions of MySQL.
 
-[mysql]: https://www.mysql.com/
+Includes [Adminer][] because it was in the MySQL container docs and why not?
+
+[adminer]: https://www.adminer.org/
 [container]: https://hub.docker.com/_/mysql
+[mysql]: https://www.mysql.com/
 
 ## Start as daemon
 
