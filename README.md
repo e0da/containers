@@ -7,6 +7,7 @@ These are containers and tools I find useful.
 - [pgadmin](pgadmin)
 - [mysql-5.6](mysql-5.6)
 - [devd](devd)
+- [fwup](fwup)
 
 ## License
 
