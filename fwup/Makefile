@@ -1,6 +1,7 @@
-PREFIX = $(HOME)/.local/bin
-BIN = fwup
+.PHONY: build build.alpine
 
-install:
+build:
 	docker build -t fwup .
-	install -m 0755 "$(BIN)" "$(PREFIX)"
+
+build.alpine:
+	docker build -t fwup:alpine -f Dockerfile.alpine .
